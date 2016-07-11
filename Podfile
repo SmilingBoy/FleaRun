@@ -4,5 +4,6 @@ platform :ios, "8.0"
 target “FleaRun” do
 
 pod 'SDWebImage'
+pod 'BaiduMapKit'
 
 end
