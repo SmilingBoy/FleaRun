@@ -12,6 +12,15 @@
 		820A30351D33B08D009E82AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30341D33B08D009E82AF /* AppDelegate.m */; };
 		820A303D1D33B08D009E82AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820A303C1D33B08D009E82AF /* Assets.xcassets */; };
 		820A30401D33B08D009E82AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820A303E1D33B08D009E82AF /* LaunchScreen.storyboard */; };
+		820A305F1D33C931009E82AF /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A305E1D33C931009E82AF /* BaseTabBarController.m */; };
+		820A30621D33C985009E82AF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30611D33C985009E82AF /* BaseNavigationController.m */; };
+		820A30651D33CAB6009E82AF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30641D33CAB6009E82AF /* BaseViewController.m */; };
+		820A30681D33CAEA009E82AF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30671D33CAEA009E82AF /* HomeViewController.m */; };
+		820A306B1D33CAF9009E82AF /* NearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A306A1D33CAF9009E82AF /* NearViewController.m */; };
+		820A306E1D33CB08009E82AF /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A306D1D33CB08009E82AF /* MessageViewController.m */; };
+		820A30711D33CB17009E82AF /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30701D33CB17009E82AF /* MeViewController.m */; };
+		820A30741D33CD0A009E82AF /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30731D33CD0A009E82AF /* TabBar.m */; };
+		820A30791D33CF08009E82AF /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30781D33CF08009E82AF /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,26 @@
 		820A303C1D33B08D009E82AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		820A303F1D33B08D009E82AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		820A30411D33B08D009E82AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820A305D1D33C931009E82AF /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		820A305E1D33C931009E82AF /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		820A30601D33C985009E82AF /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		820A30611D33C985009E82AF /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		820A30631D33CAB6009E82AF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		820A30641D33CAB6009E82AF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		820A30661D33CAEA009E82AF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		820A30671D33CAEA009E82AF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		820A30691D33CAF9009E82AF /* NearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearViewController.h; sourceTree = "<group>"; };
+		820A306A1D33CAF9009E82AF /* NearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearViewController.m; sourceTree = "<group>"; };
+		820A306C1D33CB08009E82AF /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		820A306D1D33CB08009E82AF /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		820A306F1D33CB17009E82AF /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		820A30701D33CB17009E82AF /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		820A30721D33CD0A009E82AF /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		820A30731D33CD0A009E82AF /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		820A30751D33CD70009E82AF /* FRPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRPrefixHeader.pch; sourceTree = "<group>"; };
+		820A30761D33CD8F009E82AF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		820A30771D33CF08009E82AF /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		820A30781D33CF08009E82AF /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		833DCA33A2F65019E06BD094 /* Pods-FleaRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaRun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleaRun/Pods-FleaRun.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +114,8 @@
 				820A303C1D33B08D009E82AF /* Assets.xcassets */,
 				820A303E1D33B08D009E82AF /* LaunchScreen.storyboard */,
 				820A30411D33B08D009E82AF /* Info.plist */,
+				820A30761D33CD8F009E82AF /* Header.h */,
+				820A30751D33CD70009E82AF /* FRPrefixHeader.pch */,
 				820A30301D33B08D009E82AF /* Supporting Files */,
 			);
 			path = FleaRun;
@@ -122,6 +153,8 @@
 		820A30491D33B1D5009E82AF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				820A30661D33CAEA009E82AF /* HomeViewController.h */,
+				820A30671D33CAEA009E82AF /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +186,8 @@
 		820A304D1D33B1D5009E82AF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				820A306F1D33CB17009E82AF /* MeViewController.h */,
+				820A30701D33CB17009E82AF /* MeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +219,8 @@
 		820A30511D33B1D5009E82AF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				820A306C1D33CB08009E82AF /* MessageViewController.h */,
+				820A306D1D33CB08009E82AF /* MessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,6 +252,8 @@
 		820A30551D33B1D5009E82AF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				820A30691D33CAF9009E82AF /* NearViewController.h */,
+				820A306A1D33CAF9009E82AF /* NearViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +275,9 @@
 		820A30581D33B216009E82AF /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				820A305A1D33C8F8009E82AF /* Controller */,
+				820A305B1D33C8F8009E82AF /* Model */,
+				820A305C1D33C8F8009E82AF /* View */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -243,8 +285,39 @@
 		820A30591D33B21F009E82AF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				820A30771D33CF08009E82AF /* UIViewExt.h */,
+				820A30781D33CF08009E82AF /* UIViewExt.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		820A305A1D33C8F8009E82AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				820A305D1D33C931009E82AF /* BaseTabBarController.h */,
+				820A305E1D33C931009E82AF /* BaseTabBarController.m */,
+				820A30601D33C985009E82AF /* BaseNavigationController.h */,
+				820A30611D33C985009E82AF /* BaseNavigationController.m */,
+				820A30631D33CAB6009E82AF /* BaseViewController.h */,
+				820A30641D33CAB6009E82AF /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		820A305B1D33C8F8009E82AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		820A305C1D33C8F8009E82AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				820A30721D33CD0A009E82AF /* TabBar.h */,
+				820A30731D33CD0A009E82AF /* TabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,8 +440,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820A30711D33CB17009E82AF /* MeViewController.m in Sources */,
+				820A306B1D33CAF9009E82AF /* NearViewController.m in Sources */,
+				820A30791D33CF08009E82AF /* UIViewExt.m in Sources */,
+				820A30621D33C985009E82AF /* BaseNavigationController.m in Sources */,
+				820A30651D33CAB6009E82AF /* BaseViewController.m in Sources */,
 				820A30351D33B08D009E82AF /* AppDelegate.m in Sources */,
+				820A30741D33CD0A009E82AF /* TabBar.m in Sources */,
+				820A305F1D33C931009E82AF /* BaseTabBarController.m in Sources */,
 				820A30321D33B08D009E82AF /* main.m in Sources */,
+				820A306E1D33CB08009E82AF /* MessageViewController.m in Sources */,
+				820A30681D33CAEA009E82AF /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +555,7 @@
 			baseConfigurationReference = 4C858B176C73A83AD92B37C5 /* Pods-FleaRun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FleaRun/FRPrefixHeader.pch";
 				INFOPLIST_FILE = FleaRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FleaRun.FleaRun;
@@ -485,6 +568,7 @@
 			baseConfigurationReference = 833DCA33A2F65019E06BD094 /* Pods-FleaRun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FleaRun/FRPrefixHeader.pch";
 				INFOPLIST_FILE = FleaRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FleaRun.FleaRun;

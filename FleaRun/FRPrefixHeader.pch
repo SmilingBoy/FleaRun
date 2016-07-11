@@ -1,0 +1,19 @@
+//
+//  FRPrefixHeader.pch
+//  FleaRun
+//
+//  Created by 李志强 on 16/7/11.
+//  Copyright © 2016年 lizhiqiang. All rights reserved.
+//
+
+#ifndef FRPrefixHeader_pch
+#define FRPrefixHeader_pch
+
+
+#import "Header.h"
+#import "UIViewExt.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* FRPrefixHeader_pch */
