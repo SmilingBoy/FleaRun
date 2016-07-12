@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		39170B2AA99DC35D25C79E9E /* libPods-FleaRun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 063CAFF3BDB5C75FA80FCD3D /* libPods-FleaRun.a */; };
 		4A24B6371D3526D400AF7455 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24B62B1D3526D400AF7455 /* ChatViewController.m */; };
-		4A24B6381D3526D400AF7455 /* FaceScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24B62D1D3526D400AF7455 /* FaceScrollView.m */; };
-		4A24B6391D3526D400AF7455 /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24B62F1D3526D400AF7455 /* KeyBoardView.m */; };
-		4A24B63A1D3526D400AF7455 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24B6311D3526D400AF7455 /* MessageModel.m */; };
-		4A24B63B1D3526D400AF7455 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24B6331D3526D400AF7455 /* MessageTableViewCell.m */; };
-		4A24B63C1D3526D400AF7455 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A24B6341D3526D400AF7455 /* MessageTableViewCell.xib */; };
 		4A24B63D1D3526D400AF7455 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24B6361D3526D400AF7455 /* MessageViewController.m */; };
+		4A4A99191D352C9200F71EFC /* FaceScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A99181D352C9200F71EFC /* FaceScrollView.m */; };
+		4A4A991C1D352CF900F71EFC /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A991B1D352CF900F71EFC /* KeyBoardView.m */; };
+		4A4A991F1D352D6400F71EFC /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A991E1D352D6400F71EFC /* MessageModel.m */; };
+		4A4A99231D352DCC00F71EFC /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A99211D352DCC00F71EFC /* MessageTableViewCell.m */; };
+		4A4A99241D352DCC00F71EFC /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A99221D352DCC00F71EFC /* MessageTableViewCell.xib */; };
 		820A30321D33B08D009E82AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30311D33B08D009E82AF /* main.m */; };
 		820A30351D33B08D009E82AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30341D33B08D009E82AF /* AppDelegate.m */; };
 		820A303D1D33B08D009E82AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820A303C1D33B08D009E82AF /* Assets.xcassets */; };
@@ -37,17 +37,17 @@
 		063CAFF3BDB5C75FA80FCD3D /* libPods-FleaRun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FleaRun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A24B62A1D3526D400AF7455 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		4A24B62B1D3526D400AF7455 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
-		4A24B62C1D3526D400AF7455 /* FaceScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceScrollView.h; path = ../FaceScrollView.h; sourceTree = "<group>"; };
-		4A24B62D1D3526D400AF7455 /* FaceScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FaceScrollView.m; path = ../FaceScrollView.m; sourceTree = "<group>"; };
-		4A24B62E1D3526D400AF7455 /* KeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyBoardView.h; path = ../KeyBoardView.h; sourceTree = "<group>"; };
-		4A24B62F1D3526D400AF7455 /* KeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyBoardView.m; path = ../KeyBoardView.m; sourceTree = "<group>"; };
-		4A24B6301D3526D400AF7455 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageModel.h; path = ../MessageModel.h; sourceTree = "<group>"; };
-		4A24B6311D3526D400AF7455 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageModel.m; path = ../MessageModel.m; sourceTree = "<group>"; };
-		4A24B6321D3526D400AF7455 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageTableViewCell.h; path = ../MessageTableViewCell.h; sourceTree = "<group>"; };
-		4A24B6331D3526D400AF7455 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageTableViewCell.m; path = ../MessageTableViewCell.m; sourceTree = "<group>"; };
-		4A24B6341D3526D400AF7455 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageTableViewCell.xib; path = ../MessageTableViewCell.xib; sourceTree = "<group>"; };
 		4A24B6351D3526D400AF7455 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
 		4A24B6361D3526D400AF7455 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		4A4A99171D352C9200F71EFC /* FaceScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceScrollView.h; sourceTree = "<group>"; };
+		4A4A99181D352C9200F71EFC /* FaceScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceScrollView.m; sourceTree = "<group>"; };
+		4A4A991A1D352CF900F71EFC /* KeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardView.h; sourceTree = "<group>"; };
+		4A4A991B1D352CF900F71EFC /* KeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardView.m; sourceTree = "<group>"; };
+		4A4A991D1D352D6400F71EFC /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		4A4A991E1D352D6400F71EFC /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		4A4A99201D352DCC00F71EFC /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		4A4A99211D352DCC00F71EFC /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		4A4A99221D352DCC00F71EFC /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
 		4C858B176C73A83AD92B37C5 /* Pods-FleaRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaRun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FleaRun/Pods-FleaRun.debug.xcconfig"; sourceTree = "<group>"; };
 		820A302D1D33B08D009E82AF /* FleaRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleaRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		820A30311D33B08D009E82AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +105,29 @@
 				4A24B62B1D3526D400AF7455 /* ChatViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A4A99151D352C3000F71EFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A991D1D352D6400F71EFC /* MessageModel.h */,
+				4A4A991E1D352D6400F71EFC /* MessageModel.m */,
+				4A4A99201D352DCC00F71EFC /* MessageTableViewCell.h */,
+				4A4A99211D352DCC00F71EFC /* MessageTableViewCell.m */,
+				4A4A99221D352DCC00F71EFC /* MessageTableViewCell.xib */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A4A99161D352C3B00F71EFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A99171D352C9200F71EFC /* FaceScrollView.h */,
+				4A4A99181D352C9200F71EFC /* FaceScrollView.m */,
+				4A4A991A1D352CF900F71EFC /* KeyBoardView.h */,
+				4A4A991B1D352CF900F71EFC /* KeyBoardView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		59FFF8B2ADCC5E2D12C7C33D /* Pods */ = {
@@ -255,34 +278,11 @@
 		820A30501D33B1D5009E82AF /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				4A4A99161D352C3B00F71EFC /* View */,
+				4A4A99151D352C3000F71EFC /* Model */,
 				4A24B63E1D35271400AF7455 /* Controller */,
-				820A30521D33B1D5009E82AF /* Model */,
-				820A30531D33B1D5009E82AF /* View */,
 			);
 			path = Message;
-			sourceTree = "<group>";
-		};
-		820A30521D33B1D5009E82AF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				4A24B6301D3526D400AF7455 /* MessageModel.h */,
-				4A24B6311D3526D400AF7455 /* MessageModel.m */,
-				4A24B6321D3526D400AF7455 /* MessageTableViewCell.h */,
-				4A24B6331D3526D400AF7455 /* MessageTableViewCell.m */,
-				4A24B6341D3526D400AF7455 /* MessageTableViewCell.xib */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		820A30531D33B1D5009E82AF /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4A24B62C1D3526D400AF7455 /* FaceScrollView.h */,
-				4A24B62D1D3526D400AF7455 /* FaceScrollView.m */,
-				4A24B62E1D3526D400AF7455 /* KeyBoardView.h */,
-				4A24B62F1D3526D400AF7455 /* KeyBoardView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		820A30541D33B1D5009E82AF /* Near */ = {
@@ -427,7 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				820A30401D33B08D009E82AF /* LaunchScreen.storyboard in Resources */,
-				4A24B63C1D3526D400AF7455 /* MessageTableViewCell.xib in Resources */,
+				4A4A99241D352DCC00F71EFC /* MessageTableViewCell.xib in Resources */,
 				820A303D1D33B08D009E82AF /* Assets.xcassets in Resources */,
 				826550A01D350F6E0054D8D9 /* HomeTableCell.xib in Resources */,
 			);
@@ -488,24 +488,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4A991C1D352CF900F71EFC /* KeyBoardView.m in Sources */,
+				4A4A99231D352DCC00F71EFC /* MessageTableViewCell.m in Sources */,
 				820A30711D33CB17009E82AF /* MeViewController.m in Sources */,
 				820A306B1D33CAF9009E82AF /* NearViewController.m in Sources */,
 				820A30791D33CF08009E82AF /* UIViewExt.m in Sources */,
 				820A30621D33C985009E82AF /* BaseNavigationController.m in Sources */,
-				4A24B63A1D3526D400AF7455 /* MessageModel.m in Sources */,
+				4A4A99191D352C9200F71EFC /* FaceScrollView.m in Sources */,
 				820A30651D33CAB6009E82AF /* BaseViewController.m in Sources */,
-				4A24B6391D3526D400AF7455 /* KeyBoardView.m in Sources */,
 				B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */,
 				820A30351D33B08D009E82AF /* AppDelegate.m in Sources */,
 				820A30741D33CD0A009E82AF /* TabBar.m in Sources */,
 				4A24B63D1D3526D400AF7455 /* MessageViewController.m in Sources */,
+				4A4A991F1D352D6400F71EFC /* MessageModel.m in Sources */,
 				8265508C1D350CFF0054D8D9 /* TitleViewController.m in Sources */,
-				4A24B63B1D3526D400AF7455 /* MessageTableViewCell.m in Sources */,
 				820A305F1D33C931009E82AF /* BaseTabBarController.m in Sources */,
 				820A30321D33B08D009E82AF /* main.m in Sources */,
 				820A30681D33CAEA009E82AF /* HomeViewController.m in Sources */,
 				4A24B6371D3526D400AF7455 /* ChatViewController.m in Sources */,
-				4A24B6381D3526D400AF7455 /* FaceScrollView.m in Sources */,
 				8265509F1D350F6E0054D8D9 /* HomeTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

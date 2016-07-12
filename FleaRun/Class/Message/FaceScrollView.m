@@ -1,9 +1,9 @@
 //
 //  FaceScrollView.m
-//  FaceDemo
+//  FleaRun
 //
-//  Created by sunfeng on 16/6/17.
-//  Copyright © 2016年 SunFeng. All rights reserved.
+//  Created by 吃兔子的萝卜 on 16/7/12.
+//  Copyright © 2016年 lizhiqiang. All rights reserved.
 //
 
 #import "FaceScrollView.h"
@@ -40,7 +40,7 @@
 
 - (void)loadViews{
     _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, SelfWidth, SelfHeight*0.99)];
-
+    
     _scrollView.pagingEnabled = YES;
     _scrollView.showsHorizontalScrollIndicator = NO;
     _scrollView.showsVerticalScrollIndicator=NO;
@@ -55,7 +55,7 @@
         //每一页的内容
         FaceViewItem *item = [[FaceViewItem alloc] init];
         item.frame = CGRectMake(SelfWidth*i, 0, SelfWidth, SelfHeight);
-
+        
         //从大的数组中截取小数组，注意三目运算符的使用
         NSArray *subArr = [_dataList subarrayWithRange:NSMakeRange(i * 28, ((_dataList.count - i * 28) < 28) ? (_dataList.count%28) : 28)];
         
@@ -104,17 +104,17 @@ CGFloat itemH = 30;//图片高度
         [self addSubview:imageV];
         
     }
-
+    
 }
 
 
 - (CGRect)frameAtIndex:(int )index{
-
+    
     int x = index%7;
     int y = index/7;
     
     return CGRectMake(x*itemW + space*(x+1), itemH*y+space*(y+1), itemW, itemH);
-
+    
 }
 
 
@@ -158,7 +158,7 @@ CGFloat itemH = 30;//图片高度
     if (index>=self.dataList.count) {
         return;
     }
-
+    
     //获取index对应的frame
     CGRect frameIndex = [self frameAtIndex:index];
     
@@ -166,12 +166,12 @@ CGFloat itemH = 30;//图片高度
     CGFloat centerX = frameIndex.origin.x + frameIndex.size.width/2;
     CGFloat centerY = frameIndex.origin.y + frameIndex.size.height/2;
     
-
-
+    
+    
     
     _magnifier.hidden = NO;
     [_magnifier setCenter:CGPointMake(centerX, centerY-itemH-space)];
-
+    
     
     //设置放大镜里面的图片
     NSString *imageName = [self.dataList[index] objectForKey:@"png"];
@@ -189,7 +189,7 @@ CGFloat itemH = 30;//图片高度
     
     int x = point.x/(self.bounds.size.width/7);
     int y = point.y/(self.bounds.size.height/4);
-
+    
     return y*7 + x;
 }
 
@@ -211,8 +211,8 @@ CGFloat itemH = 30;//图片高度
     CGRect frameIndex = [self frameAtIndex:index];
     CGFloat centerX = frameIndex.origin.x+frameIndex.size.width/2;
     CGFloat centerY = frameIndex.origin.y+frameIndex.size.height/2;
-
-
+    
+    
     //显示放大镜
     NSString *pngName = [self.dataList[index] objectForKey:@"png"];
     UIImage *image = [UIImage imageNamed:pngName];
@@ -220,9 +220,9 @@ CGFloat itemH = 30;//图片高度
     
     //设置放大镜的位置
     [_magnifier setCenter:CGPointMake(centerX, centerY-itemH-space)];
-
-
-
+    
+    
+    
 }
 
 
@@ -230,7 +230,7 @@ CGFloat itemH = 30;//图片高度
     
     
     [(UIScrollView *)self.superview setScrollEnabled:YES];
-
+    
     _magnifier.hidden = YES;
     
     
@@ -247,27 +247,8 @@ CGFloat itemH = 30;//图片高度
     
     NSString *name = [[_dataList objectAtIndex:index] objectForKey:@"chs"];
     NSLog(@"%@",name);
-
+    
 }
 
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

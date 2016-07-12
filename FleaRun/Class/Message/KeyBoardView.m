@@ -1,9 +1,9 @@
 //
 //  KeyBoardView.m
-//  消息页面预览
+//  FleaRun
 //
-//  Created by 吃兔子的萝卜 on 16/7/11.
-//  Copyright © 2016年 BeiWo. All rights reserved.
+//  Created by 吃兔子的萝卜 on 16/7/12.
+//  Copyright © 2016年 lizhiqiang. All rights reserved.
 //
 
 #import "KeyBoardView.h"
@@ -47,7 +47,7 @@
     [_turnView1 addSubview:[self createPhotoBtn]];     //View1添加照相按钮
     [_turnView1 addSubview:[self createImageBtn]];     //View1添加图片按钮
     [_turnView1 addSubview:[self createVideoBtn]];     //View1添加视频按钮
-
+    
     
     return _turnView1;
 }
@@ -80,7 +80,7 @@
 
 //输入框
 -(UITextField *)createTypeField{
-
+    
     _typeField = [[UITextField alloc]initWithFrame:CGRectMake(0, 0, turnView1Width, turnView1Height/2)];
     _typeField.layer.cornerRadius=5;
     _typeField.backgroundColor=[UIColor whiteColor];
@@ -160,38 +160,38 @@
         }];
         
         isTransform = YES;
-
+        
     }else{
         
         [self viewIdentity:self];
         
         isTransform = NO;
     }
-
+    
 }
 
 //照相按钮方法
 -(void)photoAction{
     NSLog(@"photo");
-
+    
 }
 
 //图片按钮方法
 -(void)imageAction{
     NSLog(@"image");
-
+    
 }
 
 //视频按钮方法
 -(void)videoAction{
     NSLog(@"video");
-
+    
 }
 
 //录音按钮方法
 -(void)recodAction{
     NSLog(@"record");
-
+    
 }
 
 #pragma mark-公共方法
@@ -205,6 +205,7 @@
         
     }];
 }
+
 
 
 @end

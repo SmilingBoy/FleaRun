@@ -1,9 +1,9 @@
 //
 //  FaceScrollView.h
-//  FaceDemo
+//  FleaRun
 //
-//  Created by sunfeng on 16/6/17.
-//  Copyright © 2016年 SunFeng. All rights reserved.
+//  Created by 吃兔子的萝卜 on 16/7/12.
+//  Copyright © 2016年 lizhiqiang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -38,11 +38,10 @@
     UIImageView *_magnifier;
     //放大镜里面的图片
     UIImageView *_gif;
-
+    
 }
 
 //数据
 @property (nonatomic,strong)NSArray *dataList;
 
 @end
-
