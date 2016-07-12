@@ -22,6 +22,8 @@
 		820A30741D33CD0A009E82AF /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30731D33CD0A009E82AF /* TabBar.m */; };
 		820A30791D33CF08009E82AF /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30781D33CF08009E82AF /* UIViewExt.m */; };
 		8265508C1D350CFF0054D8D9 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826550821D3476B70054D8D9 /* TitleViewController.m */; };
+		8265509F1D350F6E0054D8D9 /* HomeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265509D1D350F6E0054D8D9 /* HomeTableCell.m */; };
+		826550A01D350F6E0054D8D9 /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8265509E1D350F6E0054D8D9 /* HomeTableCell.xib */; };
 		B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,9 @@
 		820A30781D33CF08009E82AF /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		826550811D3476B70054D8D9 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
 		826550821D3476B70054D8D9 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		8265509C1D350F6E0054D8D9 /* HomeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableCell.h; sourceTree = "<group>"; };
+		8265509D1D350F6E0054D8D9 /* HomeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableCell.m; sourceTree = "<group>"; };
+		8265509E1D350F6E0054D8D9 /* HomeTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableCell.xib; sourceTree = "<group>"; };
 		833DCA33A2F65019E06BD094 /* Pods-FleaRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaRun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleaRun/Pods-FleaRun.release.xcconfig"; sourceTree = "<group>"; };
 		B04B92F71D34C5890005A8FD /* MineTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewHeader.h; sourceTree = "<group>"; };
 		B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewHeader.m; sourceTree = "<group>"; };
@@ -177,6 +182,9 @@
 		820A304B1D33B1D5009E82AF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8265509C1D350F6E0054D8D9 /* HomeTableCell.h */,
+				8265509D1D350F6E0054D8D9 /* HomeTableCell.m */,
+				8265509E1D350F6E0054D8D9 /* HomeTableCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -392,6 +400,7 @@
 			files = (
 				820A30401D33B08D009E82AF /* LaunchScreen.storyboard in Resources */,
 				820A303D1D33B08D009E82AF /* Assets.xcassets in Resources */,
+				826550A01D350F6E0054D8D9 /* HomeTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +472,7 @@
 				820A30321D33B08D009E82AF /* main.m in Sources */,
 				820A306E1D33CB08009E82AF /* MessageViewController.m in Sources */,
 				820A30681D33CAEA009E82AF /* HomeViewController.m in Sources */,
+				8265509F1D350F6E0054D8D9 /* HomeTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

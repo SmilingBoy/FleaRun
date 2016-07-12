@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 #import "BaseTabBarController.h"
+#import <BmobSDK/Bmob.h>
+
+
+//ApplicationID
+#define kAppKey @"7ccbd6153222911094f3f60c32d17dd8"
 
 @interface AppDelegate ()
 
@@ -18,6 +23,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Bmob registerWithAppKey:kAppKey];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];

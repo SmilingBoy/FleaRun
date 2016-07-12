@@ -5,5 +5,6 @@ target “FleaRun” do
 
 pod 'SDWebImage'
 pod 'BaiduMapKit'
+pod 'BmobSDK'
 
 end

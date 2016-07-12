@@ -1,17 +1,20 @@
 PODS:
   - BaiduMapKit (3.0.0)
+  - BmobSDK (1.7.1)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
 
 DEPENDENCIES:
   - BaiduMapKit
+  - BmobSDK
   - SDWebImage
 
 SPEC CHECKSUMS:
   BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  BmobSDK: ebc3cb46b90d746f23121e9ea058a3122b85861f
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: d028827c169a6fc04a2461d5a989f500a0c7a53d
+PODFILE CHECKSUM: 4c51229b14dcb68a3efab511de25ee2def4f7679
 
 COCOAPODS: 1.0.1
