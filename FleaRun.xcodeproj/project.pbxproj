@@ -21,6 +21,7 @@
 		820A30711D33CB17009E82AF /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30701D33CB17009E82AF /* MeViewController.m */; };
 		820A30741D33CD0A009E82AF /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30731D33CD0A009E82AF /* TabBar.m */; };
 		820A30791D33CF08009E82AF /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30781D33CF08009E82AF /* UIViewExt.m */; };
+		B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		820A30771D33CF08009E82AF /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		820A30781D33CF08009E82AF /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		833DCA33A2F65019E06BD094 /* Pods-FleaRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaRun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleaRun/Pods-FleaRun.release.xcconfig"; sourceTree = "<group>"; };
+		B04B92F71D34C5890005A8FD /* MineTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewHeader.h; sourceTree = "<group>"; };
+		B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				820A304D1D33B1D5009E82AF /* Controller */,
 				820A304E1D33B1D5009E82AF /* Model */,
 				820A304F1D33B1D5009E82AF /* View */,
+				B04B92F71D34C5890005A8FD /* MineTableViewHeader.h */,
+				B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 				820A30791D33CF08009E82AF /* UIViewExt.m in Sources */,
 				820A30621D33C985009E82AF /* BaseNavigationController.m in Sources */,
 				820A30651D33CAB6009E82AF /* BaseViewController.m in Sources */,
+				B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */,
 				820A30351D33B08D009E82AF /* AppDelegate.m in Sources */,
 				820A30741D33CD0A009E82AF /* TabBar.m in Sources */,
 				820A305F1D33C931009E82AF /* BaseTabBarController.m in Sources */,
@@ -557,6 +563,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FleaRun/FRPrefixHeader.pch";
 				INFOPLIST_FILE = FleaRun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FleaRun.FleaRun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,6 +577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FleaRun/FRPrefixHeader.pch";
 				INFOPLIST_FILE = FleaRun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FleaRun.FleaRun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
