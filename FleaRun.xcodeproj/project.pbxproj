@@ -21,6 +21,7 @@
 		820A30711D33CB17009E82AF /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30701D33CB17009E82AF /* MeViewController.m */; };
 		820A30741D33CD0A009E82AF /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30731D33CD0A009E82AF /* TabBar.m */; };
 		820A30791D33CF08009E82AF /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30781D33CF08009E82AF /* UIViewExt.m */; };
+		8265508C1D350CFF0054D8D9 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826550821D3476B70054D8D9 /* TitleViewController.m */; };
 		B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */; };
 /* End PBXBuildFile section */
 
@@ -450,7 +451,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				820A30711D33CB17009E82AF /* MeViewController.m in Sources */,
-				826550831D3476B70054D8D9 /* TitleViewController.m in Sources */,
 				820A306B1D33CAF9009E82AF /* NearViewController.m in Sources */,
 				820A30791D33CF08009E82AF /* UIViewExt.m in Sources */,
 				820A30621D33C985009E82AF /* BaseNavigationController.m in Sources */,
@@ -458,6 +458,7 @@
 				B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */,
 				820A30351D33B08D009E82AF /* AppDelegate.m in Sources */,
 				820A30741D33CD0A009E82AF /* TabBar.m in Sources */,
+				8265508C1D350CFF0054D8D9 /* TitleViewController.m in Sources */,
 				820A305F1D33C931009E82AF /* BaseTabBarController.m in Sources */,
 				820A30321D33B08D009E82AF /* main.m in Sources */,
 				820A306E1D33CB08009E82AF /* MessageViewController.m in Sources */,
