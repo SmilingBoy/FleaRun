@@ -21,6 +21,7 @@
 		820A30711D33CB17009E82AF /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30701D33CB17009E82AF /* MeViewController.m */; };
 		820A30741D33CD0A009E82AF /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30731D33CD0A009E82AF /* TabBar.m */; };
 		820A30791D33CF08009E82AF /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30781D33CF08009E82AF /* UIViewExt.m */; };
+		826550831D3476B70054D8D9 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826550821D3476B70054D8D9 /* TitleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		820A30761D33CD8F009E82AF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		820A30771D33CF08009E82AF /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		820A30781D33CF08009E82AF /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		826550811D3476B70054D8D9 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		826550821D3476B70054D8D9 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
 		833DCA33A2F65019E06BD094 /* Pods-FleaRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaRun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleaRun/Pods-FleaRun.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +158,8 @@
 			children = (
 				820A30661D33CAEA009E82AF /* HomeViewController.h */,
 				820A30671D33CAEA009E82AF /* HomeViewController.m */,
+				826550811D3476B70054D8D9 /* TitleViewController.h */,
+				826550821D3476B70054D8D9 /* TitleViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -441,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				820A30711D33CB17009E82AF /* MeViewController.m in Sources */,
+				826550831D3476B70054D8D9 /* TitleViewController.m in Sources */,
 				820A306B1D33CAF9009E82AF /* NearViewController.m in Sources */,
 				820A30791D33CF08009E82AF /* UIViewExt.m in Sources */,
 				820A30621D33C985009E82AF /* BaseNavigationController.m in Sources */,
