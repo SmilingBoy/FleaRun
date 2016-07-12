@@ -23,6 +23,8 @@
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[BaseTabBarController alloc] init];
     
+    NSLog(@"lzq");
+    
     return YES;
 }
 
