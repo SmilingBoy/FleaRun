@@ -74,6 +74,7 @@
     
     tableView.delegate = self;
     tableView.dataSource = self;
+//    tableView.tableHeaderView =[ui]
     
     tableView.rowHeight = 50 ;
     [self.view addSubview:tableView];
@@ -106,7 +107,7 @@
         MessageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell1"];
         
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"MessageTableViewCell" owner:nil options:nil] lastObject];
+            cell = [[[NSBundle mainBundle] loadNibNamed:@"MessageTableViewCell" owner:nil options:nil] objectAtIndex:0];
             
         }
         
@@ -120,7 +121,7 @@
         MessageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell2"];
         
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"MessageTableViewCell" owner:nil options:nil] lastObject];
+            cell = [[[NSBundle mainBundle] loadNibNamed:@"MessageTableViewCell" owner:nil options:nil] objectAtIndex:1];
             
         }
         
@@ -135,18 +136,18 @@
 }
 
 
-//头视图
--(nullable UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-    
-    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 60)];
-    _headerView.backgroundColor = [UIColor grayColor];
-    
-    UITextField *sousuo = [[UITextField alloc]initWithFrame:CGRectMake(10, 10, self.view.bounds.size.width-20, _headerView.bounds.size.height-20)];
-    sousuo.backgroundColor = [UIColor whiteColor];
-    
-    [_headerView addSubview:sousuo];
-    return _headerView;
-}
+////头视图
+//-(nullable UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+//    
+//    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 60)];
+//    _headerView.backgroundColor = [UIColor grayColor];
+//    
+//    UITextField *sousuo = [[UITextField alloc]initWithFrame:CGRectMake(10, 10, self.view.bounds.size.width-20, _headerView.bounds.size.height-20)];
+//    sousuo.backgroundColor = [UIColor whiteColor];
+//    
+//    [_headerView addSubview:sousuo];
+//    return _headerView;
+//}
 
 //点击单元格方法
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -157,6 +158,7 @@
         
     }else {
         
+//        [self.navigationController pushViewController:_chatNav animated:YES];
         [self presentViewController:_chatNav animated:YES completion:^{
             
         }];
