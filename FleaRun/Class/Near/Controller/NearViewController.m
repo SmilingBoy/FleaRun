@@ -7,31 +7,52 @@
 //
 
 #import "NearViewController.h"
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
 
-@interface NearViewController ()
 
+@interface NearViewController ()<BMKMapViewDelegate,BMKLocationServiceDelegate>
+{
+    BMKMapManager* _mapManager;//创建百度地图管理器
+
+    BMKLocationService *_locService;
+
+}
 @end
 
 @implementation NearViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //创建百度地图管理器
+    [self createMapManager];
+    //创建百度地图
+    [self createMapView];
+    
+    
+    //定位功能
+    _locService = [[BMKLocationService alloc]init];
+    _locService.delegate = self;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//创建百度地图管理器
+-(void)createMapManager{
+
+    _mapManager = [[BMKMapManager alloc]init];
+   
+    BOOL ret = [_mapManager start:@"Ps5bZxQ6jGlOzsDssGWfsWfyMml2kmGV"  generalDelegate:nil];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
+    
 }
+//创建百度地图
+-(void)createMapView{
+    
+    BMKMapView* mapView = [[BMKMapView alloc]initWithFrame:CGRectMake(0, 0, kScreen_W, kScreen_H)];
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [self.view addSubview:mapView];
 }
-*/
-
 @end
