@@ -10,4 +10,8 @@
 
 @interface MessageViewController : BaseViewController
 
+{
+    UIView *_headerView;        //搜索头视图
+}
+
 @end
