@@ -18,7 +18,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *Cell1Label;
 
 
- 
+
 //cell2
 @property (strong, nonatomic) IBOutlet UIImageView *cell2Image;    //用户头像
 

@@ -15,6 +15,7 @@
 		4A4A991F1D352D6400F71EFC /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A991E1D352D6400F71EFC /* MessageModel.m */; };
 		4A4A99231D352DCC00F71EFC /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A99211D352DCC00F71EFC /* MessageTableViewCell.m */; };
 		4A4A99241D352DCC00F71EFC /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A99221D352DCC00F71EFC /* MessageTableViewCell.xib */; };
+		4AF3F2491D35E3EA00AA5FE1 /* emoticons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3F2481D35E3EA00AA5FE1 /* emoticons.plist */; };
 		820A30321D33B08D009E82AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30311D33B08D009E82AF /* main.m */; };
 		820A30351D33B08D009E82AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A30341D33B08D009E82AF /* AppDelegate.m */; };
 		820A303D1D33B08D009E82AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820A303C1D33B08D009E82AF /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		4A4A99201D352DCC00F71EFC /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
 		4A4A99211D352DCC00F71EFC /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
 		4A4A99221D352DCC00F71EFC /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		4AF3F2481D35E3EA00AA5FE1 /* emoticons.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = emoticons.plist; sourceTree = "<group>"; };
 		4C858B176C73A83AD92B37C5 /* Pods-FleaRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaRun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FleaRun/Pods-FleaRun.debug.xcconfig"; sourceTree = "<group>"; };
 		820A302D1D33B08D009E82AF /* FleaRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleaRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		820A30311D33B08D009E82AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				820A303C1D33B08D009E82AF /* Assets.xcassets */,
 				820A303E1D33B08D009E82AF /* LaunchScreen.storyboard */,
 				820A30411D33B08D009E82AF /* Info.plist */,
+				4AF3F2481D35E3EA00AA5FE1 /* emoticons.plist */,
 				820A30761D33CD8F009E82AF /* Header.h */,
 				820A30751D33CD70009E82AF /* FRPrefixHeader.pch */,
 				820A30301D33B08D009E82AF /* Supporting Files */,
@@ -428,6 +431,7 @@
 			files = (
 				820A30401D33B08D009E82AF /* LaunchScreen.storyboard in Resources */,
 				4A4A99241D352DCC00F71EFC /* MessageTableViewCell.xib in Resources */,
+				4AF3F2491D35E3EA00AA5FE1 /* emoticons.plist in Resources */,
 				820A303D1D33B08D009E82AF /* Assets.xcassets in Resources */,
 				826550A01D350F6E0054D8D9 /* HomeTableCell.xib in Resources */,
 			);

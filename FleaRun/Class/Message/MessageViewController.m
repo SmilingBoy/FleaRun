@@ -51,7 +51,7 @@
     
     //导航栏左按钮
     UIButton *leftBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
-    [leftBtn setImage:[UIImage imageNamed:@"leftArrow.jpg"] forState:UIControlStateNormal];
+//    [leftBtn setImage:[UIImage imageNamed:@"leftArrow.jpg"] forState:UIControlStateNormal];
     UIBarButtonItem *leftBarBtn = [[UIBarButtonItem alloc]initWithCustomView:leftBtn];
     self.navigationItem.leftBarButtonItem=leftBarBtn ;
     
@@ -69,12 +69,12 @@
 
 //创建会话表视图
 -(void)createTableView{
-    UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 554) style:UITableViewStylePlain];
+    UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 618) style:UITableViewStylePlain];
     tableView.backgroundColor=[UIColor yellowColor];
     
     tableView.delegate = self;
     tableView.dataSource = self;
-//    tableView.tableHeaderView =[ui]
+    tableView.tableHeaderView =[self createHeaderView];
     
     tableView.rowHeight = 50 ;
     [self.view addSubview:tableView];
@@ -91,13 +91,30 @@
     
 }
 
-
+//创建表视图的头视图
+-(UIView *)createHeaderView{
+    
+    //头视图
+    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 40)];
+    _headerView.backgroundColor = [UIColor grayColor];
+    
+    
+    //头视图里的搜索框
+    UITextField *sousuo = [[UITextField alloc]initWithFrame:CGRectMake(10, 5, self.view.bounds.size.width-20, _headerView.bounds.size.height-10)];
+    sousuo.backgroundColor = [UIColor whiteColor];
+    sousuo.layer.cornerRadius = 5;
+    sousuo.placeholder = @"     搜 索 联 系 人";
+    
+    [_headerView addSubview:sousuo];
+    return _headerView;
+    
+}
 
 
 #pragma mark-表视图代理方法
 -(NSInteger )tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 10;
+    return 18;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -136,18 +153,18 @@
 }
 
 
-////头视图
-//-(nullable UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-//    
-//    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 60)];
-//    _headerView.backgroundColor = [UIColor grayColor];
-//    
-//    UITextField *sousuo = [[UITextField alloc]initWithFrame:CGRectMake(10, 10, self.view.bounds.size.width-20, _headerView.bounds.size.height-20)];
-//    sousuo.backgroundColor = [UIColor whiteColor];
-//    
-//    [_headerView addSubview:sousuo];
-//    return _headerView;
-//}
+//头视图
+-(nullable UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    
+    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 60)];
+    _headerView.backgroundColor = [UIColor grayColor];
+    
+    UITextField *sousuo = [[UITextField alloc]initWithFrame:CGRectMake(10, 10, self.view.bounds.size.width-20, _headerView.bounds.size.height-20)];
+    sousuo.backgroundColor = [UIColor whiteColor];
+    
+    [_headerView addSubview:sousuo];
+    return _headerView;
+}
 
 //点击单元格方法
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
