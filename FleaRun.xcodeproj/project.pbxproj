@@ -24,6 +24,9 @@
 		8265508C1D350CFF0054D8D9 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826550821D3476B70054D8D9 /* TitleViewController.m */; };
 		8265509F1D350F6E0054D8D9 /* HomeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265509D1D350F6E0054D8D9 /* HomeTableCell.m */; };
 		826550A01D350F6E0054D8D9 /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8265509E1D350F6E0054D8D9 /* HomeTableCell.xib */; };
+		826550AB1D3651A30054D8D9 /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826550A91D3651A30054D8D9 /* PublishViewController.m */; };
+		826550AC1D3651A30054D8D9 /* PublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826550AA1D3651A30054D8D9 /* PublishViewController.xib */; };
+		826550AF1D3653720054D8D9 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826550AE1D3653720054D8D9 /* UIView+ViewController.m */; };
 		B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +65,11 @@
 		8265509C1D350F6E0054D8D9 /* HomeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableCell.h; sourceTree = "<group>"; };
 		8265509D1D350F6E0054D8D9 /* HomeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableCell.m; sourceTree = "<group>"; };
 		8265509E1D350F6E0054D8D9 /* HomeTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableCell.xib; sourceTree = "<group>"; };
+		826550A81D3651A30054D8D9 /* PublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublishViewController.h; path = ../../../../../Documents/PublishViewController.h; sourceTree = "<group>"; };
+		826550A91D3651A30054D8D9 /* PublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublishViewController.m; path = ../../../../../Documents/PublishViewController.m; sourceTree = "<group>"; };
+		826550AA1D3651A30054D8D9 /* PublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PublishViewController.xib; path = ../../../../../Documents/PublishViewController.xib; sourceTree = "<group>"; };
+		826550AD1D3653720054D8D9 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		826550AE1D3653720054D8D9 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		833DCA33A2F65019E06BD094 /* Pods-FleaRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaRun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleaRun/Pods-FleaRun.release.xcconfig"; sourceTree = "<group>"; };
 		B04B92F71D34C5890005A8FD /* MineTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewHeader.h; sourceTree = "<group>"; };
 		B04B92F81D34C5890005A8FD /* MineTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewHeader.m; sourceTree = "<group>"; };
@@ -118,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				820A30591D33B21F009E82AF /* Category */,
+				826550A51D3651350054D8D9 /* Othrer */,
 				820A30581D33B216009E82AF /* Base */,
 				820A30471D33B1D5009E82AF /* Class */,
 				820A30331D33B08D009E82AF /* AppDelegate.h */,
@@ -303,6 +312,8 @@
 		820A30591D33B21F009E82AF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				826550AD1D3653720054D8D9 /* UIView+ViewController.h */,
+				826550AE1D3653720054D8D9 /* UIView+ViewController.m */,
 				820A30771D33CF08009E82AF /* UIViewExt.h */,
 				820A30781D33CF08009E82AF /* UIViewExt.m */,
 			);
@@ -334,6 +345,32 @@
 			children = (
 				820A30721D33CD0A009E82AF /* TabBar.h */,
 				820A30731D33CD0A009E82AF /* TabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		826550A51D3651350054D8D9 /* Othrer */ = {
+			isa = PBXGroup;
+			children = (
+				826550A61D3651350054D8D9 /* Controller */,
+				826550A71D3651350054D8D9 /* View */,
+			);
+			path = Othrer;
+			sourceTree = "<group>";
+		};
+		826550A61D3651350054D8D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				826550A81D3651A30054D8D9 /* PublishViewController.h */,
+				826550A91D3651A30054D8D9 /* PublishViewController.m */,
+				826550AA1D3651A30054D8D9 /* PublishViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		826550A71D3651350054D8D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -398,6 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826550AC1D3651A30054D8D9 /* PublishViewController.xib in Resources */,
 				820A30401D33B08D009E82AF /* LaunchScreen.storyboard in Resources */,
 				820A303D1D33B08D009E82AF /* Assets.xcassets in Resources */,
 				826550A01D350F6E0054D8D9 /* HomeTableCell.xib in Resources */,
@@ -464,9 +502,11 @@
 				820A30791D33CF08009E82AF /* UIViewExt.m in Sources */,
 				820A30621D33C985009E82AF /* BaseNavigationController.m in Sources */,
 				820A30651D33CAB6009E82AF /* BaseViewController.m in Sources */,
+				826550AF1D3653720054D8D9 /* UIView+ViewController.m in Sources */,
 				B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */,
 				820A30351D33B08D009E82AF /* AppDelegate.m in Sources */,
 				820A30741D33CD0A009E82AF /* TabBar.m in Sources */,
+				826550AB1D3651A30054D8D9 /* PublishViewController.m in Sources */,
 				8265508C1D350CFF0054D8D9 /* TitleViewController.m in Sources */,
 				820A305F1D33C931009E82AF /* BaseTabBarController.m in Sources */,
 				820A30321D33B08D009E82AF /* main.m in Sources */,

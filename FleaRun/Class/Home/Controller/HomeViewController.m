@@ -82,7 +82,7 @@
 //设置标题视图
 - (void)setUpTitleView{
     
-    UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, self.view.width, 35)];
+    UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 35)];
     
     titleView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.5];
     

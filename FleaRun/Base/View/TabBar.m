@@ -7,6 +7,8 @@
 //
 
 #import "TabBar.h"
+#import "PublishViewController.h"
+#import "UIView+ViewController.h"
 
 @interface TabBar ()
 
@@ -21,10 +23,16 @@
     self = [super init];
     if (self) {
         
+        //取消半透明效果
+        self.translucent = NO;
+        
+        //添加中间的push按钮
         UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_me_click_icon"] forState:UIControlStateSelected];
+        
+        [publishButton addTarget:self action:@selector(publishAction) forControlEvents:UIControlEventTouchUpInside];
         
         [self addSubview:publishButton];
         
@@ -32,6 +40,17 @@
         
     }
     return self;
+}
+
+//弹出发布界面
+- (void)publishAction{
+    
+    PublishViewController *publisVC = [[PublishViewController alloc] init];
+    
+    [self.viewController presentViewController:publisVC animated:NO completion:^{
+        
+    }];
+    
 }
 
 

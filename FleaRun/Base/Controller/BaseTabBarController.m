@@ -42,7 +42,7 @@
     NSDictionary *dicNormal = @{NSFontAttributeName : [UIFont systemFontOfSize:12],
                                 NSForegroundColorAttributeName : [UIColor lightGrayColor]};
     NSDictionary *dicSel = @{NSFontAttributeName : [UIFont systemFontOfSize:12],
-                             NSForegroundColorAttributeName : [UIColor blackColor]};
+                             NSForegroundColorAttributeName : [UIColor blueColor]};
     
     [tabbar setTitleTextAttributes:dicNormal forState:UIControlStateNormal];
     [tabbar setTitleTextAttributes:dicSel forState:UIControlStateSelected];
@@ -57,26 +57,26 @@
     HomeViewController *home = [[HomeViewController alloc] init];
     [self addOneViewController:home
                          title:@"首页"
-                         image:[UIImage imageNamed:@"tabBar_essence_icon"]
-                      selImage:[UIImage imageNamed:@"tabBar_essence_click_icon"]];
+                         image:[UIImage imageNamed:@"tabbar_home"]
+                      selImage:[UIImage imageNamed:@"tabbar_home_selected"]];
     //附近
     NearViewController *near = [[NearViewController alloc] init];
     [self addOneViewController:near
                          title:@"附近"
-                         image:[UIImage imageNamed:@"tabBar_new_icon"]
-                      selImage:[UIImage imageNamed:@"tabBar_new_click_icon"]];
+                         image:[UIImage imageNamed:@"tabbar_discover"]
+                      selImage:[UIImage imageNamed:@"tabbar_discover_highlighted"]];
     //消息
     MessageViewController *messages = [[MessageViewController alloc] init];
     [self addOneViewController:messages
                          title:@"消息"
-                         image:[UIImage imageNamed:@"tabBar_friendTrends_icon"]
-                      selImage:[UIImage imageNamed:@"tabBar_friendTrends_click_icon"]];
+                         image:[UIImage imageNamed:@"tabbar_message_center"]
+                      selImage:[UIImage imageNamed:@"tabbar_message_center_highlighted"]];
     //我
     MeViewController *me = [[MeViewController alloc] init];
     [self addOneViewController:me
                          title:@"我"
-                         image:[UIImage imageNamed:@"tabBar_me_icon"]
-                      selImage:[UIImage imageNamed:@"tabBar_me_click_icon"]];
+                         image:[UIImage imageNamed:@"tabbar_profile"]
+                      selImage:[UIImage imageNamed:@"tabbar_profile_highlighted"]];
     
 }
 
@@ -90,6 +90,10 @@
     vc.tabBarItem.selectedImage = selImage;
     
     BaseNavigationController *nvc = [[BaseNavigationController alloc] initWithRootViewController:vc];
+    
+    //取消半透明效果
+    nvc.navigationBar.translucent = NO;
+    
     [self addChildViewController:nvc];
     
 }
