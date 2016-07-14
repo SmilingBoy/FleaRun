@@ -542,6 +542,8 @@
 				B04B92F91D34C5890005A8FD /* MineTableViewHeader.m in Sources */,
 				820A30351D33B08D009E82AF /* AppDelegate.m in Sources */,
 				820A30741D33CD0A009E82AF /* TabBar.m in Sources */,
+				4A24B63D1D3526D400AF7455 /* MessageViewController.m in Sources */,
+				4A4A991F1D352D6400F71EFC /* MessageModel.m in Sources */,
 				826550AB1D3651A30054D8D9 /* PublishViewController.m in Sources */,
 				8265508C1D350CFF0054D8D9 /* TitleViewController.m in Sources */,
 				820A305F1D33C931009E82AF /* BaseTabBarController.m in Sources */,
